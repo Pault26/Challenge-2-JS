@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Password Generator](https://example.com)
+[Password Generator](https://pault26.github.io/Module-3-Challenge/)
 
 <img src = "Resources\images\generator.png" alt = "Project Screenshot">
 
@@ -60,7 +60,7 @@ The HTML and CSS for this project was provided by the Bootcamp, the framework Ja
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To use the Password Generator simply go to this website and follow the prompts as nessasary [Password Generator](https://example.com)
+To use the Password Generator simply go to this website and follow the prompts as nessasary [Password Generator](https://pault26.github.io/Module-3-Challenge/)
 
 ### Prerequisites
 
