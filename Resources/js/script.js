@@ -19,6 +19,7 @@ function generatePassword () {
   var lowercase = confirm ("Would you like lowercase letters in your password?")
   var uppercase = confirm ("Would you like uppercase letters in your password?")
 
+  // Combine Arrays
   if (characters) {
     outputArray = outputArray.concat(characterArray);
   }
