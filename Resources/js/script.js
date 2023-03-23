@@ -14,10 +14,22 @@ function generatePassword () {
 
 // Confirm Character Type
   var numCharacter = prompt ("How many Characters would you like? Between 8 and 128");
-  var characters = confirm ("Would you like special characters in your password?")
+
+  if (numCharacter < 8 || numCharacter > 128 || isNaN(numCharacter)) {
+    alert ("Number between 8 and 128");
+    return "";
+  }
+
+  var characters = confirm ("Would you like special characters in your password?");
   var numbers = confirm ("Would you like numbers in your password?");
-  var lowercase = confirm ("Would you like lowercase letters in your password?")
-  var uppercase = confirm ("Would you like uppercase letters in your password?")
+  var lowercase = confirm ("Would you like lowercase letters in your password?");
+  var uppercase = confirm ("Would you like uppercase letters in your password?");
+
+  if (characters + numbers + lowercase + uppercase < 1) {
+    alert ("no characters");
+    return "";
+  }
+
 
   // Combine Arrays
   if (characters) {
@@ -30,7 +42,7 @@ function generatePassword () {
     outputArray = outputArray.concat(lowercaseArray);
   }
   if (uppercase) {
-    outputArray = outputArray.concat(uppercaseArray)
+    outputArray = outputArray.concat(uppercaseArray);
   }
 
   console.log(outputArray)

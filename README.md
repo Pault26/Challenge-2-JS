@@ -29,7 +29,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Password Generator [product-screenshot]](https://example.com)
+[Password Generator](https://example.com)
+
+<img src = "Resources\images\generator.png" alt = "Project Screenshot">
 
 This is our week 3 project for our Fullstack Bootcamp, the goal of which was to use premade HTML and CSS to add JavaScript that allows the website to serve it's proper function. This is a password generator that can be used to create safe passwords for any of your password needs. The system allows you to choose if you want uppercase, lowercase, numbers or characters while also choosing the desired length.
 
